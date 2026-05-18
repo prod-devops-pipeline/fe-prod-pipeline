@@ -137,6 +137,8 @@ function AdminProducts() {
             <div className="mb-10 flex md:flex-row flex-col gap-4 justify-between">
                 <div className="relative w-full md:w-96 group">
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 group-focus-within:text-blue-500" />
+
+                    
                     <input
                         type="text"
                         className="w-full pl-10 pr-10 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:border-blue-500 outline-none transition-all"
